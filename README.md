@@ -16,7 +16,9 @@ Contract :
 ```
 GET : 
 
-/compte/all : Get all transactions
+/transaction/all : Get all transactions
+
+/transaction/id/{id} : Get transactions by Id
 
 /transaction/source/{source} : Get transactions by IBAN source
 
